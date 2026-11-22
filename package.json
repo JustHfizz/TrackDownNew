@@ -21,4 +21,11 @@
     "node-fetch": "^3.2.6",
     "node-telegram-bot-api": "^0.60.0"
   }
+"scripts": {
+  "start": "node index.js",
+  "dev": "wrangler dev",
+  "deploy": "wrangler deploy"
+},
+"devDependencies": {
+  "wrangler": "^4"
 }
