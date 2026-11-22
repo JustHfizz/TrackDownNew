@@ -212,6 +212,4 @@ res.send("Done");
 
 
 
-app.listen(5000, () => {
-console.log("App Running on Port 5000!");
-});
+export default httpServerHandler({ port: 3000 });
